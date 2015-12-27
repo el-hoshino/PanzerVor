@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7973F0521C3067D9009A4B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0511C3067D9009A4B80 /* AppDelegate.swift */; };
+		7973F0541C3067D9009A4B80 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7973F0531C3067D9009A4B80 /* GameScene.sks */; };
+		7973F0561C3067D9009A4B80 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0551C3067D9009A4B80 /* GameScene.swift */; };
+		7973F0581C3067D9009A4B80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0571C3067D9009A4B80 /* GameViewController.swift */; };
+		7973F05B1C3067D9009A4B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7973F0591C3067D9009A4B80 /* Main.storyboard */; };
+		7973F05D1C3067D9009A4B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7973F05C1C3067D9009A4B80 /* Assets.xcassets */; };
+		7973F0601C3067D9009A4B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7973F05E1C3067D9009A4B80 /* LaunchScreen.storyboard */; };
+		7973F06B1C3067D9009A4B80 /* PanzerVorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F06A1C3067D9009A4B80 /* PanzerVorTests.swift */; };
+		7973F0761C3067D9009A4B80 /* PanzerVorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0751C3067D9009A4B80 /* PanzerVorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7973F0671C3067D9009A4B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7973F0461C3067D9009A4B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7973F04D1C3067D9009A4B80;
+			remoteInfo = PanzerVor;
+		};
+		7973F0721C3067D9009A4B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7973F0461C3067D9009A4B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7973F04D1C3067D9009A4B80;
+			remoteInfo = PanzerVor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7973F04E1C3067D9009A4B80 /* PanzerVor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanzerVor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7973F0511C3067D9009A4B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7973F0531C3067D9009A4B80 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7973F0551C3067D9009A4B80 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7973F0571C3067D9009A4B80 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7973F05A1C3067D9009A4B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7973F05C1C3067D9009A4B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7973F05F1C3067D9009A4B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7973F0611C3067D9009A4B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7973F0661C3067D9009A4B80 /* PanzerVorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanzerVorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7973F06A1C3067D9009A4B80 /* PanzerVorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanzerVorTests.swift; sourceTree = "<group>"; };
+		7973F06C1C3067D9009A4B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7973F0711C3067D9009A4B80 /* PanzerVorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanzerVorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7973F0751C3067D9009A4B80 /* PanzerVorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanzerVorUITests.swift; sourceTree = "<group>"; };
+		7973F0771C3067D9009A4B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7973F04B1C3067D9009A4B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F0631C3067D9009A4B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F06E1C3067D9009A4B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7973F0451C3067D9009A4B80 = {
+			isa = PBXGroup;
+			children = (
+				7973F0501C3067D9009A4B80 /* PanzerVor */,
+				7973F0691C3067D9009A4B80 /* PanzerVorTests */,
+				7973F0741C3067D9009A4B80 /* PanzerVorUITests */,
+				7973F04F1C3067D9009A4B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7973F04F1C3067D9009A4B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7973F04E1C3067D9009A4B80 /* PanzerVor.app */,
+				7973F0661C3067D9009A4B80 /* PanzerVorTests.xctest */,
+				7973F0711C3067D9009A4B80 /* PanzerVorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7973F0501C3067D9009A4B80 /* PanzerVor */ = {
+			isa = PBXGroup;
+			children = (
+				7973F0511C3067D9009A4B80 /* AppDelegate.swift */,
+				7973F0531C3067D9009A4B80 /* GameScene.sks */,
+				7973F0551C3067D9009A4B80 /* GameScene.swift */,
+				7973F0571C3067D9009A4B80 /* GameViewController.swift */,
+				7973F0591C3067D9009A4B80 /* Main.storyboard */,
+				7973F05C1C3067D9009A4B80 /* Assets.xcassets */,
+				7973F05E1C3067D9009A4B80 /* LaunchScreen.storyboard */,
+				7973F0611C3067D9009A4B80 /* Info.plist */,
+			);
+			path = PanzerVor;
+			sourceTree = "<group>";
+		};
+		7973F0691C3067D9009A4B80 /* PanzerVorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7973F06A1C3067D9009A4B80 /* PanzerVorTests.swift */,
+				7973F06C1C3067D9009A4B80 /* Info.plist */,
+			);
+			path = PanzerVorTests;
+			sourceTree = "<group>";
+		};
+		7973F0741C3067D9009A4B80 /* PanzerVorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7973F0751C3067D9009A4B80 /* PanzerVorUITests.swift */,
+				7973F0771C3067D9009A4B80 /* Info.plist */,
+			);
+			path = PanzerVorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7973F04D1C3067D9009A4B80 /* PanzerVor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7973F07A1C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVor" */;
+			buildPhases = (
+				7973F04A1C3067D9009A4B80 /* Sources */,
+				7973F04B1C3067D9009A4B80 /* Frameworks */,
+				7973F04C1C3067D9009A4B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanzerVor;
+			productName = PanzerVor;
+			productReference = 7973F04E1C3067D9009A4B80 /* PanzerVor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7973F0651C3067D9009A4B80 /* PanzerVorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7973F07D1C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorTests" */;
+			buildPhases = (
+				7973F0621C3067D9009A4B80 /* Sources */,
+				7973F0631C3067D9009A4B80 /* Frameworks */,
+				7973F0641C3067D9009A4B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7973F0681C3067D9009A4B80 /* PBXTargetDependency */,
+			);
+			name = PanzerVorTests;
+			productName = PanzerVorTests;
+			productReference = 7973F0661C3067D9009A4B80 /* PanzerVorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7973F0701C3067D9009A4B80 /* PanzerVorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7973F0801C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorUITests" */;
+			buildPhases = (
+				7973F06D1C3067D9009A4B80 /* Sources */,
+				7973F06E1C3067D9009A4B80 /* Frameworks */,
+				7973F06F1C3067D9009A4B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7973F0731C3067D9009A4B80 /* PBXTargetDependency */,
+			);
+			name = PanzerVorUITests;
+			productName = PanzerVorUITests;
+			productReference = 7973F0711C3067D9009A4B80 /* PanzerVorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7973F0461C3067D9009A4B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "史翔新";
+				TargetAttributes = {
+					7973F04D1C3067D9009A4B80 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7973F0651C3067D9009A4B80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7973F04D1C3067D9009A4B80;
+					};
+					7973F0701C3067D9009A4B80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7973F04D1C3067D9009A4B80;
+					};
+				};
+			};
+			buildConfigurationList = 7973F0491C3067D9009A4B80 /* Build configuration list for PBXProject "PanzerVor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7973F0451C3067D9009A4B80;
+			productRefGroup = 7973F04F1C3067D9009A4B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7973F04D1C3067D9009A4B80 /* PanzerVor */,
+				7973F0651C3067D9009A4B80 /* PanzerVorTests */,
+				7973F0701C3067D9009A4B80 /* PanzerVorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7973F04C1C3067D9009A4B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7973F0541C3067D9009A4B80 /* GameScene.sks in Resources */,
+				7973F0601C3067D9009A4B80 /* LaunchScreen.storyboard in Resources */,
+				7973F05D1C3067D9009A4B80 /* Assets.xcassets in Resources */,
+				7973F05B1C3067D9009A4B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F0641C3067D9009A4B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F06F1C3067D9009A4B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7973F04A1C3067D9009A4B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7973F0561C3067D9009A4B80 /* GameScene.swift in Sources */,
+				7973F0581C3067D9009A4B80 /* GameViewController.swift in Sources */,
+				7973F0521C3067D9009A4B80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F0621C3067D9009A4B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7973F06B1C3067D9009A4B80 /* PanzerVorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F06D1C3067D9009A4B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7973F0761C3067D9009A4B80 /* PanzerVorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7973F0681C3067D9009A4B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7973F04D1C3067D9009A4B80 /* PanzerVor */;
+			targetProxy = 7973F0671C3067D9009A4B80 /* PBXContainerItemProxy */;
+		};
+		7973F0731C3067D9009A4B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7973F04D1C3067D9009A4B80 /* PanzerVor */;
+			targetProxy = 7973F0721C3067D9009A4B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7973F0591C3067D9009A4B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7973F05A1C3067D9009A4B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7973F05E1C3067D9009A4B80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7973F05F1C3067D9009A4B80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7973F0781C3067D9009A4B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7973F0791C3067D9009A4B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7973F07B1C3067D9009A4B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanzerVor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7973F07C1C3067D9009A4B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanzerVor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7973F07E1C3067D9009A4B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PanzerVorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanzerVor.app/PanzerVor";
+			};
+			name = Debug;
+		};
+		7973F07F1C3067D9009A4B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanzerVorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanzerVor.app/PanzerVor";
+			};
+			name = Release;
+		};
+		7973F0811C3067D9009A4B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PanzerVorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanzerVor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7973F0821C3067D9009A4B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanzerVorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanzerVor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7973F0491C3067D9009A4B80 /* Build configuration list for PBXProject "PanzerVor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7973F0781C3067D9009A4B80 /* Debug */,
+				7973F0791C3067D9009A4B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7973F07A1C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7973F07B1C3067D9009A4B80 /* Debug */,
+				7973F07C1C3067D9009A4B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7973F07D1C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7973F07E1C3067D9009A4B80 /* Debug */,
+				7973F07F1C3067D9009A4B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7973F0801C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7973F0811C3067D9009A4B80 /* Debug */,
+				7973F0821C3067D9009A4B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7973F0461C3067D9009A4B80 /* Project object */;
+}
