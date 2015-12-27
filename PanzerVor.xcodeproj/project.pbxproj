@@ -15,6 +15,7 @@
 		7973F0601C3067D9009A4B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7973F05E1C3067D9009A4B80 /* LaunchScreen.storyboard */; };
 		7973F06B1C3067D9009A4B80 /* PanzerVorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F06A1C3067D9009A4B80 /* PanzerVorTests.swift */; };
 		7973F0761C3067D9009A4B80 /* PanzerVorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0751C3067D9009A4B80 /* PanzerVorUITests.swift */; };
+		7973F0841C306F8D009A4B80 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973F0831C306F8D009A4B80 /* Tank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7973F0711C3067D9009A4B80 /* PanzerVorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanzerVorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7973F0751C3067D9009A4B80 /* PanzerVorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanzerVorUITests.swift; sourceTree = "<group>"; };
 		7973F0771C3067D9009A4B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7973F0831C306F8D009A4B80 /* Tank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7973F0511C3067D9009A4B80 /* AppDelegate.swift */,
 				7973F0551C3067D9009A4B80 /* GameScene.swift */,
 				7973F0571C3067D9009A4B80 /* GameViewController.swift */,
+				7973F0831C306F8D009A4B80 /* Tank.swift */,
 				7973F0591C3067D9009A4B80 /* Main.storyboard */,
 				7973F05C1C3067D9009A4B80 /* Assets.xcassets */,
 				7973F05E1C3067D9009A4B80 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				7973F0561C3067D9009A4B80 /* GameScene.swift in Sources */,
 				7973F0581C3067D9009A4B80 /* GameViewController.swift in Sources */,
 				7973F0521C3067D9009A4B80 /* AppDelegate.swift in Sources */,
+				7973F0841C306F8D009A4B80 /* Tank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
