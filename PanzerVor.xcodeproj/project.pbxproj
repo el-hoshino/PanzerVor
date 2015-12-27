@@ -411,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -422,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.PanzerVor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -494,6 +496,7 @@
 				7973F07C1C3067D9009A4B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7973F07D1C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +505,7 @@
 				7973F07F1C3067D9009A4B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7973F0801C3067D9009A4B80 /* Build configuration list for PBXNativeTarget "PanzerVorUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +514,7 @@
 				7973F0821C3067D9009A4B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
