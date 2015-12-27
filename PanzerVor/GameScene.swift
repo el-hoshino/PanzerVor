@@ -9,6 +9,15 @@
 import SpriteKit
 
 class GameScene: SKScene {
+	
+	override init(size: CGSize) {
+		super.init(size: size)
+	}
+
+	required init?(coder aDecoder: NSCoder) {
+	    fatalError("init(coder:) has not been implemented")
+	}
+	
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
